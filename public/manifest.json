@@ -1,0 +1,23 @@
+{
+  "name": "EasyWay - Traffic Monitor",
+  "short_name": "EasyWay",
+  "description": "Check live traffic in your area and see where the roads are clear or busy",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#22C55E",
+  "icons": [
+    {
+      "src": "/placeholder.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/placeholder.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+================================================================================
+⚠️  ACTION REQUIRED - DATABASE MIGRATION NEEDED
+================================================================================
+
+Your multi-lane traffic code is ready, but the database doesn't have the 
+new tables yet. That's why you're not seeing any changes.
+
+📋 DO THIS NOW (Takes 3 minutes):
+================================================================================
+
+1. Open Supabase
+   → Go to: https://supabase.com/dashboard
+   → Click your project
+   → Click "SQL Editor" in left sidebar
+
+2. Run the Migration
+   → Open file: APPLY_MIGRATION.sql (in this folder)
+   → Copy ALL contents (Ctrl+A, Ctrl+C)
+   → Paste in Supabase SQL Editor (Ctrl+V)
+   → Click "Run" button (or press Ctrl+Enter)
+   → Wait for success message
+
+3. Refresh Your Browser
+   → Go to: http://localhost:8080
+   → Press F5
+   → Click: "Mysore Palace Area" or "Devegowda Circle"
+
+✅ EXPECTED RESULT:
+================================================================================
+You will see 4 lane cards instead of 1 status card:
+
+   Lane 1: Moderate Traffic | 65 vehicles | ⬆️ Increasing
+   Lane 2: Heavy Traffic    | 82 vehicles | ⬆️ Increasing  
+   Lane 3: Low Traffic      | 28 vehicles | ⬇️ Decreasing
+   Lane 4: Moderate Traffic | 54 vehicles | ➖ Stable
+
+Each lane will show:
+✅ Vehicle count
+✅ Density percentage
+✅ Average speed
+✅ Next hour prediction
+✅ Trend indicator
+
+📚 DOCUMENTATION:
+================================================================================
+- SETUP_INSTRUCTIONS.md  ← Start here for detailed steps
+- README_MULTI_LANE.md   ← Overview and features
+- APPLY_MIGRATION.sql    ← Run this in Supabase
+
+🆘 STILL HAVING ISSUES?
+================================================================================
+1. Check browser console (F12) for errors
+2. Verify Supabase connection (.env file)
+3. Make sure dev server is running (npm run dev)
+4. See SETUP_INSTRUCTIONS.md for troubleshooting
+
+================================================================================
+Remember: You only need to run the migration ONCE!
+After that, everything will work automatically.
+================================================================================
